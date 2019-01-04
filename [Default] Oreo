@@ -3,11 +3,15 @@
   <remote  name="aoleary"
            fetch="https://github.com/aoleary/"
            revision="aos" />
+  <remote  name="VmL"
+           fetch="https://github.com/VmasterL/"
+           revision="lineage-15.1" />
 
-<!-- Device -->
+ <!-- Device -->
   <project name="android_device_lge_h811" path="device/lge/h811" remote="aoleary" />
   <project name="android_device_lge_h815" path="device/lge/h815" remote="aoleary" />
-
+  <project name="android_device_lge_h812" path="device/lge/h812_UsU" remote="VmL" />
+  
 <!-- Common Tree -->
   <project name="android_device_lge_g4-common-LOS" path="device/lge/g4-common" remote="aoleary" />
 
