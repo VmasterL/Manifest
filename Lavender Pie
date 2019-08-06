@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="VmL2"
+           fetch="https://github.com/aoleary/"
+           revision="9.x" />
+  <remote  name="VmL"
+           fetch="https://github.com/VmasterL/"
+           revision="mkp" />
+
+ <!-- Device -->
+  <project name="android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="VmL2" />
+
+<!-- Kernel -->
+ <project name="android_kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" remote="VmL" />
+
+<!-- Vendor -->
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="VmL" />
+
+</manifest>
