@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="VmL"
-           fetch="https://github.com/VmasterL/" />
+           fetch="https://github.com/VmasterL/"
+           revision="pie" />
 
 <!-- Device -->
- <project name="android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="VmL" revision="havoc-9.x" />
+ <project name="android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="VmL" />
 
 <!-- Kernel -->
- <project name="kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" remote="VmL" revision="r9.0-caf" />
+ <project name="android_kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" remote="VmL" />
 
 <!-- Vendor -->
- <project name="proprietary_vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" remote="VmL" revision="pie"/>
+ <project name="proprietary_vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" remote="VmL" />
 
 </manifest>
