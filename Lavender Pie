@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="VmL"
+  <remote  name="Viper"
            fetch="https://github.com/VmasterL/"
            revision="pie" />
 
 <!-- Device -->
- <project name="android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="VmL" />
+ <project name="android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="Viper" />
 
 <!-- Kernel -->
- <project name="android_kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" remote="VmL" />
+ <project name="android_kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" remote="Viper" />
 
 <!-- Vendor -->
- <project name="proprietary_vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" remote="VmL" />
+ <project name="proprietary_vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" remote="Viper" />
 
 </manifest>
