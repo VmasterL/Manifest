@@ -1,1 +1,19 @@
-l
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="derp"
+           fetch="https://github.com/DerpFest-Devices/"
+           revision="ten" />
+  <remote  name="vantom"
+           fetch="https://github.com/vantoman/"
+           revision="davinciq"
+
+<!-- Device -->
+ <project name="device_xiaomi_davinci" path="device/xiaomi/davinci" remote="derp" />
+
+<!-- Kernel -->
+ <project name="kernel_xiaomi_davinci" path="kernel/xiaomi/davinci" remote="vantom" />
+
+<!-- Vendor -->
+ <project name="vendor_xiaomi_davinci" path="vendor/xiaomi/davinci" remote="derp" />
+
+</manifest>
