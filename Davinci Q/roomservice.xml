@@ -3,15 +3,15 @@
   <remote  name="derp"
            fetch="https://github.com/DerpFest-Devices/"
            revision="ten" />
-  <remote  name="vantom"
-           fetch="https://github.com/vantoman/"
-           revision="davinciq"
+  <remote  name="davdev"
+           fetch="https://github.com/davinci-dev/"
+           revision="lineage-17.0" />
 
 <!-- Device -->
  <project name="device_xiaomi_davinci" path="device/xiaomi/davinci" remote="derp" />
 
 <!-- Kernel -->
- <project name="kernel_xiaomi_davinci" path="kernel/xiaomi/davinci" remote="vantom" />
+ <project name="android_kernel_xiaomi_sm6150" path="kernel/xiaomi/davinci" remote="davdev" />
 
 <!-- Vendor -->
  <project name="vendor_xiaomi_davinci" path="vendor/xiaomi/davinci" remote="derp" />
